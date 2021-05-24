@@ -1,0 +1,28 @@
+계기
+github에 먼저 numpy_intro.ipynb 를 올리고 git에 같은 파일을 올린다음 커밋 후 push 했는데 안됨.
+동일한 파일명이 문제인가 싶어서 파일명 바꿨는데 여전히 안됨.
+
+
+이쯤되서 에러메시지를 읽어봄
+C:\git_pjt\prepare_test>git push
+To https://github.com/ShimYC/prepare_test.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/ShimYC/prepare_test.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+대충 해석하면 온라인 상에서 업데이트가 내 노트북에 반영이 안되서 업로드가 안된다는것.
+git pull이 온라인 업데이트를 local저장소에 반영하는것 같으니 시도해봄. >>됨. (엌ㅋㅋ)
+
+결론1
+내가 느끼기엔 github에 바로바로 올리고 한번에 local 저장소에 반영하는게 편한듯함.
+
+결론2
+Error 메시지가 뜨면 일단 읽어보자.....
+
+결론3
+영어공부하자....
+
